@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background-color: #E5E5E5;
+}
+
+
+
+
+.container_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 125px;
+  width: 100%;
+  background-color: #222222;
+  padding: 0 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pizza {
+  height: 80px;
+  width: 92px;
+}
+
+.texto_logo {
+  height: 25px;
+
+}
+
+.container_logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.lista_flex{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  }
+
+.lista_flex a {
+  text-decoration: none;
+  
+  color: #F3F3F3;
+}
+
+
+.container_conteudo {
+  
+  display: flex;
+  margin-top: 35px;
+  height: 350px;
+  margin:35px 91px
+}
+
+.card1 {
+  
+  height: 100%;
+  width: 50%;  
+  background-image: url(../assets/delivery.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  text-align: center;
+}
+
+.texto_h1 {
+  color: #FC200C;
+  font-size: 25px;
+
+}
+
+.span_style {
+  color: white;
+}
+
+.card2 {
+  
+
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 50%;  
+  background-color: #FFFFFF;
+}
+
+.card2 h1 {
+  color: #FC200C;
+  display: block;
+  font-size: 25px;
+  
+
+}
+
+.container_flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+}
+
+.top5 {
+  line-height: 23px;
+  font-size: 35px;
+  font-weight: 700px;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pizzas {
+display: flex;
+flex-direction: column;
+gap: 8px;
+font-size: 25px;
+}
+
+.imagem img {
+width: 150px;
+}
+
+.container_footer {
+  background-color: #222222;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+.lista_flex_column {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.lista_flex_column a{
+  text-decoration: none;
+  color: #F3F3F3;
+ 
+}
+
+.nav_container a {
+  margin: 0 8px;
+}
+
+.pizza2 {
+  height: 80px;
+  width: 92px;
+}
+
+.texto_logo2 {
+  height: 25px;
+}
+
+a:hover {
+  color: #39B24A;
+  border-bottom: 2px solid #FC200C;
+}
